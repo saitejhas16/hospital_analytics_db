@@ -72,3 +72,7 @@ def get_resource_utilization():
 @app.get("/equipment")
 def get_equipment():
     return fetch_table("equipment")
+
+@app.get("/disease_symptoms")
+def get_equipment():
+    return fetch_table("disease_symptoms")
